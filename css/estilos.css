@@ -51,7 +51,7 @@ h1{
     
 }
 
-img{
+img.profile{
     width: 100%;
     object-fit: cover;
     object-fit: center;
@@ -87,4 +87,10 @@ i.tuerca-avatar{
     width: 18px;
     text-align: center;
     margin-right: 5px;
+}
+
+#btn-search{
+    background-color: var(--color-primary);
+    display: block;
+    border:none;
 }
