@@ -22,9 +22,69 @@ ul{
 
 a{
     text-decoration: none;
+    display: block;
+    padding: 10px 0;
+    color: var(--color-black2);
 }
 
 a:hover{
     text-decoration: none;
 }
 
+/*header*/
+
+header{
+    background-color: #fff;
+    padding: 10px 0;
+    box-shadow: 0 5px 10px rgba(204,204,204,0.31);
+}
+
+h1{
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.avatar-container{
+    width: 60px;
+    position: relative;
+    
+}
+
+img{
+    width: 100%;
+    object-fit: cover;
+    object-fit: center;
+    border-radius: 50%;
+
+}
+
+#boton{
+    background-color: #fff;
+    border:none;
+    padding: 0;
+    margin: 0;
+
+}
+
+i.tuerca-avatar{
+    position: absolute;
+    left: 0;
+    top:0;
+    font-size: 18px;
+    color: var(--color-primary);
+}
+
+.profile-options-list{
+    margin:0;
+    padding:0;
+    list-style: none;
+
+}
+
+.i-skills{
+    display: inline-block;
+    width: 18px;
+    text-align: center;
+    margin-right: 5px;
+}
