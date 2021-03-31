@@ -12,9 +12,6 @@ h1,h2,h3,h4,h5,h6{
     margin:0;
 }
 
-img{
-    max-width: 100%;
-}
 
 ul{
     list-style: none;
@@ -25,11 +22,14 @@ a, a.btn-link{
     display: block;
     padding: 10px 0;
     color: var(--color-black2);
+    
 }
 
 a:hover{
     text-decoration: none;
+    color: var(--color-primary);
 }
+
 
 /*header*/
 
@@ -37,15 +37,22 @@ header{
     background-color: #fff;
     padding: 10px 0;
     box-shadow: 0 5px 10px rgba(204,204,204,0.31);
-    position:fixed;
-    top:0;
-    left: 0;
     width: 100%;
-    z-index: 10;
+
 }
 
-h1{
-    font-size: 24px;
+.app-title{
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+
+.seccion-title-container{
+    font-size: 20px;
+    text-align: center;
+    padding: 15px 0 30px;
+    position:relative;
+    color: var(--color-primary);
     font-weight: 600;
     text-transform: uppercase;
 }
@@ -64,7 +71,7 @@ img.profile{
 
 }
 
-#boton{
+ #boton{
     background-color: #fff;
     border:none;
     padding: 0;
@@ -80,6 +87,7 @@ i.tuerca-avatar{
     color: var(--color-primary);
 }
 
+
 .profile-options-list{
     margin:0;
     padding:0;
@@ -88,28 +96,22 @@ i.tuerca-avatar{
 }
 
 .i-skills{
-    display: inline-block;
     width: 18px;
     text-align: center;
     margin-right: 5px;
+    display: inline-block;
 }
+
 
 #btn-search{
     background-color: var(--color-primary);
-    display: block;
     border:none;
     width: 100%;
     color: #fff;
     font-weight: 500;
 }
 
-.seccion-title-container{
-    font-size: 20px;
-    text-align: center;
-    padding: 15px 0 30px;
-    position:relative;
-    color: var(--color-primary);
-}
+
 
 .seccion-title-container::after{
     content: '';
@@ -122,16 +124,12 @@ i.tuerca-avatar{
     left: 50%;
     transform: translateX(-50%);
     border-radius: 50px;
-
-
-
-
 }
 
 /*main*/
 
 main{
-    padding-top: 80px;
+    padding-top: 20px;
 }
 
 .search-container{
