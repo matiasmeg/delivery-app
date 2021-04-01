@@ -38,6 +38,10 @@ header{
     padding: 10px 0;
     box-shadow: 0 5px 10px rgba(204,204,204,0.31);
     width: 100%;
+    position: fixed;
+    top:0;
+    left: 0;
+
 
 }
 
@@ -55,6 +59,7 @@ header{
     color: var(--color-primary);
     font-weight: 600;
     text-transform: uppercase;
+
 }
 
 .avatar-container{
@@ -144,6 +149,7 @@ input{
     font-size: 14px;
     padding: 8px 10px;
     border-radius: 4px;
+    margin-top: 50px;
 
 }
 
