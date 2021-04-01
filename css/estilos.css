@@ -70,6 +70,7 @@ header{
 
 img.profile{
     width: 100%;
+    height: 60px;
     object-fit: cover;
     object-fit: center;
     border-radius: 50%;
@@ -149,7 +150,7 @@ input{
     font-size: 14px;
     padding: 8px 10px;
     border-radius: 4px;
-    margin-top: 50px;
+    margin-top: 80px;
 
 }
 
@@ -244,4 +245,8 @@ span.oferta{
 .dolar{
     font-size: 13px;
     margin-right: 3px;
+}
+
+#verMas:hover{
+    color: var(--color-primary);
 }
