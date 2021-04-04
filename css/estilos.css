@@ -232,7 +232,7 @@ span.oferta{
 
 .fa-star{
     font-size: 13px;
-    color:yellow;
+    color: var(--color-primary);
 }
 
 .products-price{
